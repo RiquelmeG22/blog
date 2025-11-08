@@ -2,6 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
+import Post from './routes/Post.jsx'
+
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
@@ -20,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: '/new',
         element: <NewPost />,
+      },
+      {
+        path: '/post/:id',
+        element: <Post />,
       },
     ],
   },

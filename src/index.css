@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0e1217;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.7;
+    transition: .3s;
+}
+
+p {
+    color: #a9aab3;
+}
+
